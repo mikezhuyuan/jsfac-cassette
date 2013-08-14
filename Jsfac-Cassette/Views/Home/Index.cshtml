@@ -1,0 +1,15 @@
+﻿@using Cassette.Scripts
+@{
+    Bundles.Reference("js/test/main.js");
+    Layout = null;
+}
+
+<!doctype>
+<html>
+    <head>
+        @Bundles.RenderScripts()
+    </head>
+    <body>
+        <div>Please view source.</div>
+    </body>
+</html>
